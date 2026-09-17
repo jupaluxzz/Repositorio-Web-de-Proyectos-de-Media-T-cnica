@@ -1,0 +1,120 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #6299b6;
+}
+.tittle-box{
+    color: #1b3c4d;
+    position: absolute;
+    top: 0%;
+    left: 38%;
+    width: 350px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}
+.frace_box{
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 36%;
+    width: 400px;
+    font-size: xx-large;
+
+}
+/* .proyecto1-box{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    width: 350px;
+    background-color: #f8e3d1;
+    box-shadow: #0e212b;
+    border-radius: 10%;
+     box-shadow: 0 15px 25px */
+/* } */
+.proyecto2-box{
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    width: 350px;
+    background-color: #f8e3d1;
+    box-shadow: #0e212b;
+    border-radius: 10%;
+     box-shadow: 0 15px 25px
+}
+.proyecto3-box{
+    position: absolute;
+    top: 35%;
+    left: 73%;
+    width: 350px;
+    background-color: #f8e3d1;
+    box-shadow: #0e212b;
+    border-radius: 10%;
+     box-shadow: 0 15px 25px
+}
+
+.imgUsuario-box{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 3%;
+    left: 88.3%;
+
+}
+
+.proyecto6-box{
+    position: absolute;
+    top: 80%;
+    left: 73%;
+    width: 350px;
+    background-color: #f8e3d1;
+    box-shadow: #0e212b;
+    border-radius: 10%;
+     box-shadow: 0 15px 25px
+}
+.proyecto5-box{
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    width: 350px;
+    background-color: #f8e3d1;
+    box-shadow: #0e212b;
+    border-radius: 10%;
+     box-shadow: 0 15px 25px;
+     
+}
+/* .proyecto4-box{
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 350px;
+    background-color: #f8e3d1;
+    box-shadow: #0e212b;
+    border-radius: 10%;
+    box-shadow: 0 15px 25px;
+   
+
+} */
+.Usuario-box{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 12%;
+    left: 89%;
+    font-family: sans-serif;
+
+
+}
+.registro-box{
+
+    border: 2px solid #000000;
+    
+    width: 400px;
+    height: 800px;
+    top: 10%;
+    left: 0%;
+    border-radius: 3%;
+    font-size: 150%;
+
+}
