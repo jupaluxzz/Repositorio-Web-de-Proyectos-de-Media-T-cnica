@@ -4,24 +4,96 @@ html{
 
 body{
     background-color: #6299b6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+#Sidebar{
+position: fixed;
+top: 0%;
+left: 0%;
+width: 250px;
+height: 100%;
+background-color: #151719;
+}
+
+#Sidebar ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.img-user{
+    width: 80px;
+    display: block;
+    margin: 20px auto;
+}
+
+#Sidebar .titulo{
+    color: white;
+    text-align: center;
+    padding: 15px 10px 5px 10px;
+    border-bottom: 1px solid rgba(230, 230, 230, .9);
+}
+
+#Sidebar .opcion a{
+    color: rgba(230, 230, 230, .9);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+#Sidebar .opcion a:hover{
+    background-color: #6299b6;
+    color: #1b3c4d;
+}
+
+.contenido{
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.Usuario-box{
+    margin-top: -15px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+}
+.registro{
+    
+    text-align: right;
+    color: #1b3c4d;
 }
 .tittle-box{
     color: #1b3c4d;
-    position: absolute;
-    top: 0%;
-    left: 38%;
-    width: 350px;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     font-size: 150%;
 }
 .frace_box{
     color: white;
-    position: absolute;
-    top: 8%;
-    left: 36%;
-    width: 400px;
+    text-align: center;
+    margin-bottom: 40px;
     font-size: xx-large;
 
+}
+
+.lista-proyectos{
+    text-align: center;
+}
+
+.proyecto-box{
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+box-shadow: 0px 15px 25px rgb (99, 94, 94);
+box-sizing: content-box;
 }
 /* .proyecto1-box{
     position: absolute;
@@ -33,7 +105,7 @@ body{
     border-radius: 10%;
      box-shadow: 0 15px 25px */
 /* } */
-.proyecto2-box{
+/* .proyecto2-box{
     position: absolute;
     top: 35%;
     left: 38%;
@@ -59,7 +131,7 @@ body{
     height: 80px;
     position: absolute;
     top: 3%;
-    left: 88.3%;
+    left: 6%;
 
 }
 
@@ -83,7 +155,7 @@ body{
     border-radius: 10%;
      box-shadow: 0 15px 25px;
      
-}
+} */
 /* .proyecto4-box{
     position: absolute;
     top: 80%;
@@ -96,25 +168,49 @@ body{
    
 
 } */
-.Usuario-box{
+/* .Usuario-box{
     width: 80px;
     height: 80px;
     position: absolute;
-    top: 12%;
-    left: 89%;
+    top: 0%;
+    left: 7%;
     font-family: sans-serif;
 
 
 }
-.registro-box{
-
-    border: 2px solid #000000;
-    
-    width: 400px;
-    height: 800px;
-    top: 10%;
-    left: 0%;
-    border-radius: 3%;
-    font-size: 150%;
-
+.registro{
+    position: absolute;
+    top: 5%;
+    left: 88%;
 }
+  *{ margin: 0%;
+    padding: 0%;}
+
+#Sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #151719;
+}
+
+#Sidebar ul li {
+    color:  rgba(230, 230, 230, .9);
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba (100, 100, 100, .3);
+    list-style: none;
+}
+.img-user{
+    width: 80px;
+    margin: 0%;
+} */
+/* poner todo centrado: :si
+poner todo en orden: si, tambien
+colores: azul, azul claro 
+Funcionar = Si
+Funcionar bien: Por supuesto
+Todo listo? Si, siempre
+input: no, no es necesario.
+FIN...
+O quien sabe?...
+Continuara... */

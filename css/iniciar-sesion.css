@@ -5,13 +5,19 @@ html{
 body{
     background-color: #6299b6;
 }
+.Title-iniciarSesion-box{
+    color: #1b3c4d;
+    text-align: center;
+    padding-top: 30px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}
+
 .CuadroCentral-box{
-    position: absolute;
-    top: 40%;
-    left: 50%;
     width: 400px;
-    height: 500px;
-    transform: translate(-50%,-50%);
+    max-width: 90%;
+    margin: 0% auto;
+    padding: 30px;
     background: #9acfea;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgb(99, 94, 94);
@@ -19,38 +25,55 @@ body{
     border-radius: 10px;
 
 }
-.Title-iniciarSesion-box{
-    color: #1b3c4d;
-    position: absolute;
-    top: 0%;
-    left: 41%;
-    width: 350px;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 150%;
+
+.CuadroCentral-box label{
+display: block;
+margin-bottom: 8px;
+color: #1b3c4d;
 }
-div a .botonVolver-box{
-    position: absolute;
-    left: 45%;
-    top: 70%;
+
+.CuadroCentral-box input{
+width: 100%;
+padding: 8px;
+margin-bottom: 25px;
+border: none;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.BotonEnviar-box{
+    width: 100%;
+    padding: 10px;
+    font-size: 100%;
+    background-color: #9acfea;
+    border: 1px solid #1b3c4d;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+   .VolverMenu-box{
+    text-align: center;
+    margin-top: 30px;
+   }
+   
+.botonVolver-box{
     width: 200px;
     height: 50px;
     font-size: 100%;
      border-radius: 50px;
+     border: none;
     background-color: #9acfea;
-   
+   cursor: pointer;
 
 }
-.BotonEnviar-box{
-    font-size: 100%;
-    background-color: #9acfea;
-    top: 300%;
 
-}
 
 .registrarse-box{
-position: absolute;
-top: 77%;
-left: 45.5%;
+text-align: center;
+color: #1b3c4d;
+margin-top: 20px;
+padding-bottom: 40px;
 }
 
 .LinkSesion a {
