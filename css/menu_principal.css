@@ -42,13 +42,14 @@ background-color: #151719;
     text-decoration: none;
     text-align: center;
     display: block;
-    padding: 10px;
+    padding: 20px;
 }
 
 #Sidebar .opcion a:hover{
     background-color: #6299b6;
     color: #1b3c4d;
 }
+
 
 .contenido{
     margin-left: 250px;
@@ -82,6 +83,7 @@ background-color: #151719;
 .lista-proyectos{
     text-align: center;
 }
+
 
 .proyecto-box{
     display: inline-block;

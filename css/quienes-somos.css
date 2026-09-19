@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color:  #6299b6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.tittle-we{
+    color: #1b3c4d;
+    text-align: center;
+    font-size: 150%;
+}
+
+.lista-we{
+    text-align: center;
+}
+
+.we-box{
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    margin: 30px;
+    padding: 60px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+box-shadow: 0px 15px 25px rgb (99, 94, 94);
+box-sizing: content-box;
+}
+
+.VolverMenu-box{
+ text-align: center;
+ margin-top: 30px;
+
+}
+div a .botonVolver-box{ 
+    width: 200px;
+    height: 50px;
+    font-size: 100%;
+    border-radius: 50px;
+    background-color: #9acfea;
+    cursor: pointer;
+    }
