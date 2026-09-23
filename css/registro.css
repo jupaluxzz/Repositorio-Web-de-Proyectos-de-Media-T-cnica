@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 html{
     height: 100%;
 }
 
 body{
-      background-color: hsla(197, 64%, 39%, 0);
+    font-family: "Inter", sans-serif;
+    background-color: hsla(197, 64%, 39%, 0);
     background-image: radial-gradient(circle at 28% 32%, hsla(63, 63%, 89%, 1) 4.3478260869565215%, transparent 41.07488084876019%), radial-gradient(circle at 53% 45%, hsla(196, 80%, 40%, 1) 37.28337296195652%, transparent 56.4093946373981%), radial-gradient(circle at 25% 56%, hsla(320, 82%, 83%, 0.72) 0%, transparent 24%), radial-gradient(circle at 36% 16%, hsla(119, 78%, 70%, 0.72) 0%, transparent 24%);
     background-blend-mode: normal, normal, normal, normal;
 } 
